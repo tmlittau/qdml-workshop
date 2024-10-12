@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>First International Workshop on Quantum Data and Machine Learning: Systems, Theory and Hardware (QDML)</h1>
+<p>In conjunction with <a href="https://ieee-icde.org/2025/">ICDE 2025</a></p>
