@@ -5,6 +5,22 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
   darkMode: 'selector',
   theme: {
+    screens: {
+      'sm': '768px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '1024px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1536px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1920px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '2160px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       colors: {
         // flowbite-svelte
