@@ -17,7 +17,6 @@ jobs:
         run: |
           yarn install --immutable --immutable-cache --check-cache
           yarn build
-          cp build/404.html build/index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
