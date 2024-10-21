@@ -1,6 +1,7 @@
 <script>
     import { Card, Heading, P, Hr, Timeline, TimelineItem, Button, List, Li } from 'flowbite-svelte';
     import { ArrowRightOutline } from 'flowbite-svelte-icons';
+    import rhai from '$lib/assets/img/people/rhai.png';
 
     /**
      * @param {{ preventDefault: () => void; currentTarget: any; }} event
@@ -107,7 +108,7 @@
     <Heading tag="h2" class="mb-4">Organising Committee</Heading>
     <Hr classHr="my-8" />
     <div class="grid grid-cols-2 mb-16">
-        <Card img="/img/people/rhai.png">
+        <Card img={rhai}>
             <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rihan Hai</h3>
             <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Organiser</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assistant Professor</p>
