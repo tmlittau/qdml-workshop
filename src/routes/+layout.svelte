@@ -36,7 +36,7 @@
         <img src={qdml_logo} class="me-3 h-9" alt="QDML Logo" />
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">QDML</span>
     </NavBrand>
-    <NavHamburger class="bg-gray-900" />
+    <NavHamburger class="!bg-gray-900" />
     <NavUl {activeUrl}>
         <NavLi class="text-white" href="#aims" on:click={handleAnchorClick}>Aims & Scope</NavLi>
         <NavLi class="text-white" href="#dates" on:click={handleAnchorClick}>Important Dates</NavLi>
