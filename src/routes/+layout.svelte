@@ -27,7 +27,7 @@
     let contactModal = false;
 </script>
 <!-- <Navbar class="fixed bg-gray-900 rounded-lg mt-8 mb-8 w-full border-b-2 lg:m-8 dark:bg-gray-800"> -->
-<Navbar class="px-2 bg-gray-900 md:text-white sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0 border-b dark:bg-gray-800">
+<Navbar class="px-2 bg-gray-900 text-white sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0 border-b dark:bg-gray-800">
     <NavBrand href="/" class="hidden md:inline-flex">
         <img src={qdml_logo} class="me-3 h-9" alt="QDML Logo" />
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Quantum Data and Machine Learning</span>
@@ -38,13 +38,13 @@
     </NavBrand>
     <NavHamburger />
     <NavUl {activeUrl}>
-        <NavLi class="text-white" href="#aims" on:click={handleAnchorClick}>Aims & Scope</NavLi>
-        <NavLi class="text-white" href="#dates" on:click={handleAnchorClick}>Important Dates</NavLi>
-        <NavLi class="text-white" href="#committee" on:click={handleAnchorClick}>Program Committee</NavLi>
-        <NavLi class="text-white" href="#program" on:click={handleAnchorClick}>Program</NavLi>
-        <NavLi class="text-white" href="#submit" on:click={handleAnchorClick}>Paper Submission</NavLi>
-        <NavLi class="text-white" href="#papers" on:click={handleAnchorClick}>Accepted Papers</NavLi>
-        <NavLi class="text-white" href="#contact" on:click={() => (contactModal = true)}>Contact</NavLi>
+        <NavLi class="md:text-white" href="#aims" on:click={handleAnchorClick}>Aims & Scope</NavLi>
+        <NavLi class="md:text-white" href="#dates" on:click={handleAnchorClick}>Important Dates</NavLi>
+        <NavLi class="md:text-white" href="#committee" on:click={handleAnchorClick}>Program Committee</NavLi>
+        <NavLi class="md:text-white" href="#program" on:click={handleAnchorClick}>Program</NavLi>
+        <NavLi class="md:text-white" href="#submit" on:click={handleAnchorClick}>Paper Submission</NavLi>
+        <NavLi class="md:text-white" href="#papers" on:click={handleAnchorClick}>Accepted Papers</NavLi>
+        <NavLi class="md:text-white" href="#contact" on:click={() => (contactModal = true)}>Contact</NavLi>
     </NavUl>
     <DarkMode class="absolute right-12 top-2 lg:top-4" />
 </Navbar>
