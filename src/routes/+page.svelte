@@ -2,6 +2,8 @@
     import { Card, Heading, P, Hr, Timeline, TimelineItem, Button, List, Li } from 'flowbite-svelte';
     import { ArrowRightOutline } from 'flowbite-svelte-icons';
     import rhai from '$lib/assets/img/people/rhai.png';
+    import kpark from '$lib/assets/img/people/kpark.png';
+    import tlittau from '$lib/assets/img/people/tlittau.png';
 
     /**
      * @param {{ preventDefault: () => void; currentTarget: any; }} event
@@ -118,7 +120,7 @@
             </Button>
         </Card>
 
-        <Card img="/img/people/kpark.png">
+        <Card img={kpark}>
             <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kwanghyun Park</h3>
             <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Organiser</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assistant Professor</p>
@@ -132,7 +134,7 @@
     <Heading tag="h2" class="mb-4">Workshop Chairs</Heading>
     <Hr classHr="my-8" />
     <div class="grid grid-rows-1 grid-cols-2 place-content-center divide-y">
-        <Card img="/img/people/tlittau.png">
+        <Card img={tlittau}>
             <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tim Littau</h3>
             <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Publicity Chair</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">PhD student</p>

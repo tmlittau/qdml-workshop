@@ -6,6 +6,7 @@
         Footer, FooterCopyright, Modal, Button, Indicator, Avatar,
         DarkMode 
     } from 'flowbite-svelte';
+    import qdml_logo from '$lib/assets/img/people/qdml_logo.png';
     $: activeUrl = $page.url.pathname;
 
     /**
@@ -28,11 +29,11 @@
 <!-- <Navbar class="fixed bg-gray-900 rounded-lg mt-8 mb-8 w-full border-b-2 lg:m-8 dark:bg-gray-800"> -->
 <Navbar class="px-2 bg-gray-900 text-white sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0 border-b dark:bg-gray-800">
     <NavBrand href="/" class="hidden md:inline-flex">
-        <img src="/qdml_logo.png" class="me-3 h-9" alt="QDML Logo" />
+        <img src={qdml_logo} class="me-3 h-9" alt="QDML Logo" />
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Quantum Data and Machine Learning</span>
     </NavBrand>
     <NavBrand href="/" class="md:hidden">
-        <img src="/qdml_logo.png" class="me-3 h-9" alt="QDML Logo" />
+        <img src={qdml_logo} class="me-3 h-9" alt="QDML Logo" />
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">QDML</span>
     </NavBrand>
     <NavHamburger />
