@@ -7,6 +7,10 @@
         DarkMode 
     } from 'flowbite-svelte';
     import qdml_logo from '$lib/assets/img/people/qdml_logo.png';
+    import rhai from '$lib/assets/img/people/rhai.png';
+    import kpark from '$lib/assets/img/people/kpark.png';
+    import tlittau from '$lib/assets/img/people/tlittau.png';
+
     $: activeUrl = $page.url.pathname;
 
     /**
@@ -61,7 +65,7 @@
     <ul class="max-w-sm divide-y divide-gray-200 dark:divide-gray-700 w-full">
         <li class="py-3 sm:py-4">
           <div class="flex items-center space-x-3 rtl:space-x-reverse">
-            <Avatar src="/img/people/rhai.png" href="mailto:r.hai@tudelft.nl" alt="Rihan image" />
+            <Avatar src={rhai} href="mailto:r.hai@tudelft.nl" alt="Rihan image" />
             <div class="flex-1 min-w-0">
               <p class="text-sm font-semibold text-gray-900 truncate dark:text-white"><a href="mailto:r.hai@tudelft.nl">Rihan Hai</a></p>
               <p class="text-sm text-gray-500 truncate dark:text-gray-400"><a href="mailto:r.hai@tudelft.nl">r.hai@tudelft.nl</a></p>
@@ -71,7 +75,7 @@
         <li class="py-3 sm:py-4">
           <div class="flex items-center space-x-3 rtl:space-x-reverse">
             <div class="flex-shrink-0">
-              <Avatar src="/img/people/kpark.png" href="mailto:kwanghyun.park@yonsei.ac.kr" alt="Kwanghyun image" />
+              <Avatar src={kpark} href="mailto:kwanghyun.park@yonsei.ac.kr" alt="Kwanghyun image" />
             </div>
             <div class="flex-1 min-w-0">
               <p class="text-sm font-semibold text-gray-900 truncate dark:text-white"><a href="mailto:kwanghyun.park@yonsei.ac.kr">Kwanghyun Park</a></p>
@@ -82,7 +86,7 @@
         <li class="py-3 sm:py-4">
             <div class="flex items-center space-x-3 rtl:space-x-reverse">
               <div class="flex-shrink-0">
-                <Avatar src="/img/people/tlittau.png" href="mailto:t.m.littau@tudelft.nl" alt="Tim image" />
+                <Avatar src={tlittau} href="mailto:t.m.littau@tudelft.nl" alt="Tim image" />
               </div>
               <div class="flex-1 min-w-0">
                 <p class="text-sm font-semibold text-gray-900 truncate dark:text-white"><a href="mailto:t.m.littau@tudelft.nl">Tim Littau</a></p>
