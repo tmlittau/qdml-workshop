@@ -33,8 +33,19 @@
     <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Aims & Scope</Heading>
     <Hr classHr="my-16" />
 
-    <P></P>
-
+    <P class="text-center">
+        With the rapid advancements in quantum computing, a transformative synergy between the data management and quantum computing communities has emerged. 
+    </P>
+    <P class="text-center">
+        Quantum computing offers unprecedented potential and a new perspective on classical problems in database domains, including query optimization, data integration, index selection, and transaction management. 
+    </P>
+    <P class="text-center">
+        As we transition into the era of near-term quantum computing, new data management challenges arise, requiring innovative approaches and collaboration. 
+    </P>
+    <P class="text-center">
+        This workshop aims to establish a comprehensive theoretical foundation while exploring practical methodologies and use cases to advance research and applications in these intersecting fields.    
+    </P>
+    <Hr classHr="my-16" />
     <Heading tag="h5" class="mb-4">Quantum Data Management</Heading>
     <Hr classHr="my-8" />
     <List tag="ul" class="space-y-4 text-gray-900 dark:text-gray-200 mb-8">
