@@ -6,7 +6,7 @@
         Footer, FooterCopyright, Modal, Button, Indicator, Avatar,
         DarkMode 
     } from 'flowbite-svelte';
-    import qdml_logo from '$lib/assets/img/people/qdml_logo.png';
+    import qdml_logo from '$lib/assets/img/qdml_logo.png';
     import rhai from '$lib/assets/img/people/rhai.png';
     import kpark from '$lib/assets/img/people/kpark.png';
     import tlittau from '$lib/assets/img/people/tlittau.png';
@@ -38,17 +38,16 @@
     </NavBrand> -->
     <NavBrand href="/">
         <img src={qdml_logo} class="me-3 h-9" alt="QDML Logo" />
-        <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">QDML</span>
+        <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">QDML 2025</span>
     </NavBrand>
     <NavHamburger />
     <NavUl {activeUrl}>
         <NavLi class="md:text-white" href="#aims" on:click={handleAnchorClick}>Aims & Scope</NavLi>
-        <NavLi class="md:text-white" href="#dates" on:click={handleAnchorClick}>Important Dates</NavLi>
-        <NavLi class="md:text-white" href="#committee" on:click={handleAnchorClick}>Program Committee</NavLi>
+        <NavLi class="md:text-white" href="#submit" on:click={handleAnchorClick}>Submission</NavLi>
         <NavLi class="md:text-white" href="#program" on:click={handleAnchorClick}>Program</NavLi>
-        <NavLi class="md:text-white" href="#submit" on:click={handleAnchorClick}>Paper Submission</NavLi>
         <NavLi class="md:text-white" href="#papers" on:click={handleAnchorClick}>Accepted Papers</NavLi>
-        <NavLi class="md:text-white" href="#contact" on:click={() => (contactModal = true)}>Contact</NavLi>
+        <NavLi class="md:text-white" href="#committee" on:click={handleAnchorClick}>Organisation</NavLi>
+        <NavLi class="md:text-white" href="/" on:click={() => (contactModal = true)}>Contact</NavLi>
     </NavUl>
     <DarkMode class="absolute right-12 top-2 lg:top-4" />
 </Navbar>
