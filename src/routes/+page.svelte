@@ -2,7 +2,7 @@
     import { Card, Heading, P, Hr, Timeline, TimelineItem, Button, List, Li } from 'flowbite-svelte';
     import { ArrowRightOutline, CalendarWeekSolid, ClockSolid } from 'flowbite-svelte-icons';
     import rhai from '$lib/assets/img/people/rhai.png';
-    import kpark from '$lib/assets/img/people/kpark.png';
+    import kpark from '$lib/assets/img/people/kpark.jpg';
     import tlittau from '$lib/assets/img/people/tlittau.png';
     import home_bg from '$lib/assets/img/home_bg.jpg';
 

@@ -8,7 +8,7 @@
     } from 'flowbite-svelte';
     import qdml_logo from '$lib/assets/img/qdml_logo.png';
     import rhai from '$lib/assets/img/people/rhai.png';
-    import kpark from '$lib/assets/img/people/kpark.png';
+    import kpark from '$lib/assets/img/people/kpark.jpg';
     import tlittau from '$lib/assets/img/people/tlittau.png';
 
     $: activeUrl = $page.url.pathname;
